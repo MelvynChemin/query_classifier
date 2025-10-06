@@ -1,0 +1,11 @@
+# Python venv
+query_classifier_env/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.DS_Store
