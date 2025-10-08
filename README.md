@@ -139,3 +139,5 @@ Package as a PyPI module with pre-trained weights.
 
 ---
 
+### Labelisation
+Used a combination of manual labeling with label-studio and llm labeling. 
