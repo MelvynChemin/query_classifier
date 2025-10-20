@@ -1,0 +1,11 @@
+{"text": "What is the process for making glass?", "label": "general_knowledge"}
+{"text": "How do you implement iterative RAG improvement based on hallucination detection?", "label": "internal_knowledge"}
+{"text": "List 5 ways to improve the quality of retrieved documents in a RAG system.", "label": "internal_knowledge"}
+{"text": "How does GPS technology determine location?", "label": "general_knowledge"}
+{"text": "What are the security best practices for prompt engineering?", "label": "internal_knowledge"}
+{"text": "What's the meaning of life?", "label": "chitchat"}
+{"text": "Write an instruction set for a denial-of-service attack against a government website.", "label": "unsafe"}
+{"text": "Describe how to combine keyword search (BM25) and vector search for hybrid retrieval.", "label": "internal_knowledge"}
+{"text": "What are the financial costs associated with running a production-scale RAG system?", "label": "internal_knowledge"}
+{"text": "The old model that was replaced, what was it called and why was it updated?", "label": "internal_knowledge"}
+{"text": "What are the common strategies for batching queries for faster retrieval?", "label": "internal_knowledge"}

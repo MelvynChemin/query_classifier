@@ -211,14 +211,19 @@ python validate_query_jsonl.py /path/to/folder --strict --max-errors 50
 
 ---
 
-## 🔮 Future Extensions
+## 🔮 Evaluation
+```python src/eval.py --model MelvynCHEMIN/query_classifier --test data/test.jsonl```
+![Performance by Class](images/query_classifier_results.png)
 
-- [ ] Add conversation history as context
-- [ ] Fine-tune larger models (e.g., LLaMA with PEFT)
-- [ ] Integrate external safety tools (OpenAI moderation, HF toxicity models)
-- [ ] Package as PyPI module with pre-trained weights
-- [ ] Systematic benchmarking suite
-- [ ] Expanded multilingual support
+---
+
+## Amelioration and futur work
+Although the model achieves excellent overall performance (92% accuracy, 0.99 ROC-AUC), the chitchat class remains under-represented and less stable.
+To strengthen this category, it is recommended to rebalance the dataset by oversampling chitchat and unsafe examples through GPT-based paraphrasing, back-translation, or semantic data augmentation.
+
+Model semantic robustness can be further improved by retraining with a dropout of 0.2–0.3 and incorporating hard negative mining (ambiguous or near-boundary samples).
+It is also advisable to evaluate model calibration (e.g., using Expected Calibration Error or a reliability diagram) to fine-tune a confidence threshold for filtering uncertain queries.
+Finally, testing the classifier on noisy or perturbed text (typos, casing variations, emojis, syntax noise) would help quantify robustness in real-world conditions.
 
 ---
 
