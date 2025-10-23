@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+query_classifier/__init__.py
+query_classifier/api.py
+query_classifier/classifier.py
+query_classifier/cli.py
+query_classifier.egg-info/PKG-INFO
+query_classifier.egg-info/SOURCES.txt
+query_classifier.egg-info/dependency_links.txt
+query_classifier.egg-info/entry_points.txt
+query_classifier.egg-info/requires.txt
+query_classifier.egg-info/top_level.txt

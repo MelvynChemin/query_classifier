@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "query-classifier"
+version = "0.1.0"
+dependencies = [
+    "torch",
+    "transformers",
+    "safetensors",
+]
+
+[project.scripts]
+query-classify = "query_classifier.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["query_classifier"]
